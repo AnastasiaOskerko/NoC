@@ -1,0 +1,493 @@
+/*студия красоты No Comment*/
+.name {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-weight: bolder;
+  color: rgb(61, 56, 56);
+  margin-bottom: 0em;
+  text-align: center;
+}
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f7f7f7;
+  height: 50px;
+  margin-top: auto;
+}
+
+.box {
+  background-color: #ffffff;
+  margin-top: 6em;
+}
+
+/*номера телефонов*/
+.number1 {
+  margin: 0em 0em 0em 0em;
+  font-style: oblique;
+  text-align: center;
+}
+
+.number2 {
+  margin: 0em 0em 0em 0em;
+  padding-bottom: 1em;
+  font-style: oblique;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(252, 103, 219);
+  font-size: 18px;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+/*услуги */
+.nail {
+  background-color: rgba(235, 235, 235, 0.5);
+  border: 10em solid rgb(240, 116, 199);
+  border-width: 0px;
+  padding: 10px;
+  float: left;
+  width: 6em;
+  height: 30px;
+  text-align: center;
+  margin: 0px 0px 5px 5px;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+.hair {
+  background-color: rgba(235, 235, 235, 0.5);
+  border: 10em solid rgb(240, 116, 199);
+  border-width: 0px;
+  padding: 10px 10px 20px 10px;
+  float: left;
+  width: 6em;
+  height: 30px;
+  text-align: center;
+  margin: 0px 0px 5px 5px;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.pedicure {
+  background-color: rgba(235, 235, 235, 0.5);
+  border: 10em solid rgb(240, 116, 199);
+  border-width: 0px;
+  padding: 10px;
+  float: left;
+  width: 6em;
+  height: 30px;
+  text-align: center;
+  margin: 0px 0px 5px 5px;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+.cosm {
+  background-color: rgba(235, 235, 235, 0.5);
+  border: 10em solid rgb(240, 116, 199);
+  border-width: 0px;
+  padding: 10px 10px 20px 10px;
+  float: left;
+  width: 6em;
+  height: 30px;
+  text-align: center;
+  margin: 0px 0px 5px 5px;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+.eyebrows {
+  background-color: rgba(235, 235, 235, 0.5);
+  border: 10em solid rgb(240, 116, 199);
+  border-width: 0px;
+  padding: 10px 10px 20px 10px;
+  float: left;
+  width: 6em;
+  height: 30px;
+  text-align: center;
+  margin: 0px 0px 5px 5px;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+.eyelashes {
+  background-color: rgba(235, 235, 235, 0.5);
+  border: 10em solid rgb(240, 116, 199);
+  border-width: 0px;
+  padding: 10px 10px 20px 10px;
+  float: left;
+  width: 6em;
+  height: 30px;
+  text-align: center;
+  margin: 0px 0px 5px 5px;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+.epilation {
+  background-color: rgba(235, 235, 235, 0.5);
+  border: 10em solid rgb(240, 116, 199);
+  border-width: 0px;
+  padding: 10px;
+  float: left;
+  width: 6em;
+  height: 30px;
+  text-align: center;
+  margin: 0px 0px 5px 5px;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.aaa {
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 100%;
+}
+
+.bbb {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 36em;
+  height: 65px;
+}
+
+.ccc {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 28em;
+  height: 65px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Condensed");
+.menu-main {
+  list-style: none;
+  margin-left: 130px;
+  text-align: center;
+  background-color: rgb(red, green, blue, 0.5);
+  display: inline-block;
+  width: 9em;
+  margin-top: 10px;
+}
+.menu-main li {
+  display: inline-block;
+}
+.menu-main li:after {
+  content: "|";
+  color: #606060;
+  display: inline-block;
+  vertical-align: top;
+}
+.menu-main li:last-child:after {
+  content: none;
+}
+.menu-main a {
+  text-decoration: none;
+  font-family: "Ubuntu Condensed", sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding: 5px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: block;
+  transition: color 0.2s;
+}
+.menu-main a,
+.menu-main a:visited {
+  color: #9d999d;
+}
+.menu-main a.current,
+.menu-main a:hover {
+  color: rgb(248, 139, 212);
+}
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: rgb(248, 139, 212);
+  transition: 0.8s;
+}
+.menu-main a:hover:before,
+.menu-main .current:before {
+  left: 0;
+}
+.menu-main a:hover:after,
+.menu-main .current:after {
+  right: 0;
+}
+@media (max-width: 550px) {
+  .menu-main {
+    padding-top: 0;
+  }
+  .menu-main li {
+    display: block;
+  }
+  .menu-main li:after {
+    content: none;
+  }
+  .menu-main a {
+    padding: 25px 0 20px;
+    margin: 0 30px;
+  }
+}
+
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+p {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.pic-salon {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+}
+/*аддаптивность*/
+@media screen and (max-width: 320px) {
+  html {
+    width: 100%;
+  }
+  body.box {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 15em;
+    width: 100%;
+  }
+  h1 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  ul.menu {
+    position: absolute;
+    background-color: #ffffff;
+  }
+  li.menu-main {
+    width: 70%;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 1px;
+  }
+  div.bbb {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  div.ccc {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  p {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    width: 100%;
+  }
+  body.box {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 15em;
+    width: 100%;
+  }
+  h1 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  ul.menu {
+    position: absolute;
+    background-color: #ffffff;
+  }
+  li.menu-main {
+    width: 50%;
+    margin-left: 75px;
+    margin-right: 0px;
+    height: 1px;
+  }
+  div.bbb {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  div.ccc {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  p {
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    width: 100%;
+  }
+  body.box {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 9em;
+    width: 100%;
+  }
+  h1 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  ul.menu {
+    position: absolute;
+    background-color: #ffffff;
+    height: 1px;
+  }
+  li.menu-main {
+    width: 50%;
+    margin-left: 150px;
+
+    height: 1px;
+  }
+  div.bbb {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  div.ccc {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  p {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  pic-salon {
+    width: 95%;
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  html {
+    width: 100%;
+  }
+  body.box {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 5em;
+    width: 100%;
+  }
+  h1 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  ul.menu {
+    position: absolute;
+    background-color: #ffffff;
+    height: 1px;
+  }
+  li.menu-main {
+    width: 25%;
+    margin-left: 150px;
+
+    height: 1px;
+  }
+  div.bbb {
+    width: 65%;
+    margin-left: 24%;
+    text-align: center;
+  }
+  div.ccc {
+    width: 65%;
+    margin-left: 30%;
+    text-align: center;
+  }
+  p {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  pic-salon {
+    width: 95%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  html {
+    width: 100%;
+  }
+  body.box {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+  h1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 0px;
+  }
+  ul.menu {
+    position: absolute;
+    background-color: #ffffff;
+    height: 5px;
+    margin-bottom: 0%;
+  }
+  li.menu-main {
+    width: 25%;
+    margin-left: 150px;
+    height: 1px;
+  }
+  div.bbb {
+    width: 100%;
+    margin-left: 24%;
+    text-align: center;
+  }
+  div.ccc {
+    width: 100%;
+    margin-left: 30%;
+    text-align: center;
+  }
+  p {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  pic-salon {
+    width: 95%;
+    margin-left: 5%;
+  }
+}
